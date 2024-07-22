@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Form</title>
+</head>
+   <style>
+     .center {
+        align-items: center;
+        text-align: center;
+     }
+     body {
+        background: url('img.jpg');
+     }
+    label {
+        vertical-align: top;
+        background: linear-gradient(yellow, rgb(26, 157, 26), cadetblue);
+    }
+   </style>
+<body>
+  <div class="center">
+    <iframe style="max-width:100%" src="https://wordwall.net/embed/9c12bce8493c4b898d07ef15740f03c6?themeId=22&templateId=71&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+    <iframe style="max-width:100%" src="https://wordwall.net/embed/86777d6bbd264092a494c2b4f56a2544?themeId=26&templateId=49&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+    <form>
+        <label>
+            What is your favorite fruit?
+            <input type="text" placeholder="apple or any some fruit" required />
+        </label>
+        <br>
+        <label>
+            What are you boy or girl?
+            Girl
+        <input type="radio" name="bog" required />
+            Boy
+        <input type="radio" name="bog" required />
+        </label>
+        <br>
+        <label>
+            What's your Email?
+        <input type="email" placeholder="????????@?????.???" required />
+        </label>
+        <br>
+        <label>
+            What your phone number?
+        <input type="tel" placeholder="972+50000000" required />
+        </label>
+        <br>
+        <label>
+            What your favorite color?
+        <input type="color" />
+        </label>
+        <br>
+        <label>
+            What your favorite food?
+            <input type="text" required>
+        </label>
+        <br>
+        <label>
+        <input type="submit" name="submit" required /> 
+        </label>
+    </form>
+  </div>
+</body>
+</html>
